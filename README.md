@@ -1,9 +1,9 @@
 # Getting started
 
-* ensure to be logged in with your account on a docker registry (e.g. DockerHub)
+* ensure to be logged in within docker (e.g. DockerHub)
 * install faas-cli tools
 * export OPENFAAS_URL=[GatewayURL\]:[Port\]
-* perform the faas-cli login --password [pwd\] --prefix [DockerHub accountID\] (e.g. eg4u)
+* perform the faas-cli login --password [pwd\]
 
 # Deploy
 to build and deploy run 
