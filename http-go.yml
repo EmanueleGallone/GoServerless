@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://10.79.23.69:30034
+functions:
+  http-go:
+    lang: golang-http
+    handler: ./http-go
+    image: eg4u/http-go:latest
+
